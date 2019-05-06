@@ -797,7 +797,7 @@ int main(int argc, char** argv) {
     if (argc == 1) {
         cerr << "No input file given." << endl;
         return 1;
-    } else if (argc == 2) {
+    } else if (argc >= 2) {
         file = argv[1];
     }
 
